@@ -97,10 +97,13 @@ nav a {
 
 .contaner-para {
     margin-top: 1px;
+    /* color: var(--Dark-02, #474747); */
 }
 
 .contaner-div {
     display: flex;
+    gap: 50px;
+    padding: 10px 170px 0px 170px;
 }
 
 
@@ -110,6 +113,24 @@ nav a {
     padding: 125px 145px;
     width: 1000px;
     height: 400px;
-    background-color:#FFF8F3;
-    text-align:center; 
+    background-color: #FFF8F3;
+    text-align: center;
+}
+
+/* what style */
+.contaner-second {
+    text-align: center;
+}
+
+.contaner-second p {
+    padding: 0px 450px;
+}
+/* icon style */
+.icon-dis{
+    display: flex;
+    margin: 10px 300px;
+}
+.icon-dis div{
+    padding: 30px;
+    gap: 2px;
 }
