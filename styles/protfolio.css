@@ -125,12 +125,21 @@ nav a {
 .contaner-second p {
     padding: 0px 450px;
 }
+
 /* icon style */
-.icon-dis{
+.icon-dis {
     display: flex;
-    margin: 10px 300px;
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    /* align-items: j; */
+    justify-content: center;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.icon-dis div{
+
+.icon-dis div {
     padding: 30px;
     gap: 2px;
 }
