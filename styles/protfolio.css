@@ -33,6 +33,11 @@ nav {
     padding: 18px 35px;
 }
 
+/* main tag style  */
+.contaner {
+    text-align: center;
+}
+
 
 
 nav>ul {
@@ -54,12 +59,20 @@ nav a {
 /* header style */
 .header {
     background-color: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
+/* banner style */
+
 .banner {
-    padding: 30px 30px 30px 200px;
+    padding: 30px 30px 0px 200px;
+
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -68,9 +81,35 @@ nav a {
     height: 676px;
 }
 
-.banner-greeting {}
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+}
 
-.banner-title {}
-.banner-contand{
-    
+.banner-title {
+    font-size: 80px;
+    font-weight: 700px;
+}
+
+.banner-contand {
+    max-width: 500px;
+}
+
+.contaner-para {
+    margin-top: 1px;
+}
+
+.contaner-div {
+    display: flex;
+}
+
+
+.main-section {
+    margin: auto;
+    margin-top: 50px;
+    padding: 125px 145px;
+    width: 1000px;
+    height: 400px;
+    background-color:#FFF8F3;
+    text-align:center; 
 }
